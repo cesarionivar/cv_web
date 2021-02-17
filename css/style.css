@@ -33,6 +33,23 @@ body {
     height: 100%;
 }
 
+.user-image::before,
+.user-image::after {
+    content: '';
+    position: relative;
+    top: 30%;
+    display: block;
+    background-color: black;
+    width: 174px;
+    height: 1px;
+    transform: rotate(55deg) translate(-119px);
+}
+.user-image::after {
+	right: -128px;
+	transform: rotate(125deg) translate(-119px);
+}
+
+
 .user-image img {
     position: absolute;
     left: 50%;
@@ -59,3 +76,61 @@ body {
     margin-top: 10px;
     
 }
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .seccion {
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 1.8;
+}
+
+.barra-perfil,
+.barra-educacion {
+	position: absolute;
+	top: -122px;
+	left: -242px;
+	width: 213px;
+	height: 1px;
+	background-color: black;
+	transform: rotate(11deg);
+}
+
+.barra-educacion {
+	left: unset;
+	right: -243px;
+	top: -120px;
+	transform: rotate(-11deg);
+}
+
+.barra-habilidades,
+.barra-experiencia {
+	position: absolute;
+	top: 110px;
+	left: -191px;
+	width: 238px;
+	height: 1px;
+	background-color: black;
+    transform: rotate(-7deg);
+}
+
+.barra-experiencia {
+    left: unset;
+    right: -191px;
+    transform: rotate(7deg);
+}
+
