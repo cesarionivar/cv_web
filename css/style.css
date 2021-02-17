@@ -184,6 +184,16 @@ body {
     text-align: center;
 }
 
+.web-development:hover,
+.power-bi:hover,
+.email:hover,
+.fab.fa-linkedin:hover,
+.fab.fa-twitter:hover,
+.fab.fa-github:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 @media(max-width: 1190px) {
 
     body {
@@ -392,7 +402,7 @@ body {
     .experiencia {
         position: unset;
         padding-top: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 100px !important;
     }
 
 }
