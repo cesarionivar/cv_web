@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
@@ -12,4 +15,47 @@ body {
     overflow: hidden;
     height: 100vh;
     margin: 0;
+}
+
+.user {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-image {
+    position: relative;
+    background: url('../img/tech-circle.png') center/contain no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.user-image img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 105px;
+    height: 105px;
+}
+
+.user .username {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.role {
+    margin-top: 10px;
+    
 }
