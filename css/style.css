@@ -158,7 +158,7 @@ body {
     margin-top: 10px;
 }
 
-.educacion .instituto {
+.instituto {
     font-weight: bold;
 }
 
@@ -175,4 +175,11 @@ body {
     flex-direction: column;
     justify-content: left;
     text-align: left;
+}
+
+.experiencia {
+    position: absolute;
+    top: 98px;
+    right: -342px;
+    text-align: center;
 }
