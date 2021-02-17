@@ -183,3 +183,228 @@ body {
     right: -342px;
     text-align: center;
 }
+
+@media(max-width: 1190px) {
+
+    body {
+        width: 900px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .perfil p {
+        margin-left: 30px;
+    }
+
+    .habilidades {
+        left: -344px;
+    }
+
+    .experiencia {
+        right: -333px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .barra-perfil {
+        top: -116px;
+        left: -174px;
+        width: 144px;
+    }
+    
+    .barra-educacion {
+        top: -114px;
+        right: -175px;
+        width: 144px;
+
+    }
+
+    .barra-habilidades {
+        left: -109px;
+        width: 152px;
+    }
+
+    .barra-experiencia {
+        right: -109px;
+        width: 152px;
+    }
+
+    .perfil {
+        left: -350px;
+    }
+
+    .educacion {
+        right: -350px;
+    }
+
+    .habilidades {
+        left: -260px;
+    }
+
+    .experiencia {
+        right: -252px;
+    }
+
+}
+
+@media(max-width: 970px) {
+    .barra-perfil {
+        top: -111px;
+        left: -130px;
+        width: 100px;
+    }
+
+    .barra-educacion {
+	    top: -110px;
+	    right: -131px;
+	    width: 100px;
+    }
+
+    .barra-habilidades {
+        left: -86px;
+        width: 130px;
+    }
+
+    .barra-experiencia {
+        right: -86px;
+        width: 130px;
+    }
+
+    .perfil {
+        left: -298px;
+        top: -146px;
+    }
+
+    .educacion {
+        right: -298px;
+        top: -146px;
+    }
+
+    .habilidades {
+        left: -238px;
+    }
+
+    .experiencia {
+        right: -227px;
+    }
+}
+
+.isMobile {
+    display: none;
+}
+
+@media(max-width: 900px) {
+    body {
+        display: block;
+        overflow: unset;
+        height: auto;
+        width: unset;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .barra-perfil, 
+    .barra-habilidades,
+    .barra-educacion,
+    .barra-experiencia {
+        display: none;
+    }
+
+    .user-image::before, 
+    .user-image::after {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column;
+        width: unset;
+
+    }
+    
+    .user-image {
+        position: unset;
+        
+    }
+        
+    .user-image img {
+        position: absolute;
+        top: 167px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .isDesktop {
+        display: none;
+    }
+
+    .isMobile {
+        display: flex;
+        padding-top: 410px;
+    }
+    
+    .perfil {
+        position: unset;
+        width: unset;
+    }
+    
+    .perfil p {
+        text-align: justify;
+        max-width: 350px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .educacion {
+        position: unset;
+        width: unset;
+        padding-top: 20px;
+    }
+    
+    .educacion p .fa-gavel {
+        margin-top: 10px;
+    }
+    
+    .habilidades {
+        position: unset;
+        width: unset;
+        padding-top: 30px;
+    }
+    
+    
+    .habilidades ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+    }
+
+    .habilidades ul li {
+        line-height: 1.8;
+        text-align: center;
+    }
+    
+    .experiencia {
+        position: unset;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .user-image img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .contact-info{
+        text-align: center;
+    }
+}
