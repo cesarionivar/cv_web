@@ -1,0 +1,37 @@
+{
+    "name": "CV Cesario Nivar",
+    "short_name": "CV NIVAR",
+    "description": "Curriculum vitae de Cesario Nivar",
+    "start_url": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "icons": [
+        {
+            "src": "./img/icon-70x70.png",
+            "sizes": "70x70",
+            "type": "image/png"
+        },
+        {   
+            "src": "./img/icon-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-310x310.png",
+            "sizes": "310x310",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

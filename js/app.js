@@ -54,6 +54,6 @@ email.addEventListener('click', ()=> {
 });
 
 
-
-
-
+if(navigator.serviceWorker) {
+    navigator.serviceWorker.register('./sw.js');
+}
